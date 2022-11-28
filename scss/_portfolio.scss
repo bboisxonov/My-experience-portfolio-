@@ -58,6 +58,7 @@
     border: none;
     font-family: sans-serif;
     margin-left: 30px;
+    transition: .4s ease-in-out;
 }
 .btn_left{
     background-color: #5e5e5e;
@@ -65,6 +66,10 @@
     border: none;
     font-family: sans-serif;
     margin-left: 30px;
+    transition: .4s ease-in-out;
+}
+.btn_left:hover, .btn_right:hover{
+    opacity: .7;
 }
 
 // Activity Page
