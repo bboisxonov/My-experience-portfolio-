@@ -1,55 +1,51 @@
-.nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 30px;
-    padding: 30px 90px;
-    width: 100%;
-    position: relative;
-    box-shadow: 0 0 5px 10px #070707;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding: 20px 90px;
+  width: 100%;
+  box-shadow: 0 5px 5px 2px #070707;
 }
-.nav_logo{
-    font-family: monospace;
-    font-size: 40px;
-    text-decoration: none;
-    color: black;
+.nav_logo {
+  font-family: monospace;
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
 }
-.nav_logo_link{
-    text-decoration: none;
-    color: white;
-    letter-spacing: -2px; 
-    transition: all .7s ease-in-out;
+.nav_logo_link {
+  text-decoration: none;
+  color: white;
+  letter-spacing: -2px;
+  transition: all 0.7s ease-in-out;
 }
-.nav_logo_link:hover{
-    color: #04E6F1;
-
+.nav_logo_link:hover {
+  color: #04e6f1;
 }
-.navbar{
-    position: absolute;
-    left: 930px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 550px;
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 550px;
 }
-.navbar_item{
-    list-style-type: none;
-    border-bottom: 2px solid black;
-    transition: .7s ease-in-out;
+.navbar_item {
+  list-style-type: none;
+  border-bottom: 2px solid black;
+  transition: 0.7s ease-in-out;
 }
-.navbar_item_link{
-    text-decoration: none;
-    color: white;
-    font-family: sans-serif;
-    font-size: 23px;
-    letter-spacing: 2px;
-    transition: .7s ease-in-out;
+.navbar_item_link {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: 23px;
+  letter-spacing: 2px;
+  transition: 0.7s ease-in-out;
 }
-.navbar_item_link:hover{
-    color: #04E6F1;
+.navbar_item_link:hover {
+  color: #04e6f1;
 }
-.navbar_item:hover .dash{
-    background-color: #04E6F1;
-    transition: .4s ease-in-out;
-    width: 100%;
+.navbar_item:hover .dash {
+  background-color: #04e6f1;
+  transition: 0.4s ease-in-out;
+  width: 100%;
 }
