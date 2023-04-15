@@ -133,5 +133,67 @@
     left: 0;
     width: 100%;
     opacity: 0.8;
+    transition: 2s ease-in-out;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .nav {
+    padding: 5px 30px;
+  }
+
+  .section1_left {
+    position: relative;
+    top: 50px;
+  }
+  .section1_title {
+    font-size: 35px;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .section1_desc {
+    font-size: 15px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 22px;
+  }
+  .section1_right_img {
+    width: 238px;
+    height: 238px;
+  }
+  .buttons {
+    flex-direction: column;
+    width: 300px;
+    justify-content: space-between;
+    height: 100px;
+  }
+
+  .logos_apps {
+    margin: 50px auto;
+    width: 200px;
+  }
+  .logo {
+    width: 25px;
+    height: 25px;
+  }
+  .btn_portfolio {
+    font-size: 15px;
+    height: 20px;
+    &::after {
+      padding: 10px 0;
+      width: 195px;
+      height: 25px;
+    }
+  }
+  .btn_about_me {
+    font-size: 15px;
+    height: 20px;
+    &::after {
+      padding: 10px 0;
+      width: 195px;
+      height: 25px;
+    }
   }
 }
