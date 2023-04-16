@@ -133,7 +133,6 @@
     left: 0;
     width: 100%;
     opacity: 0.8;
-    transition: 2s ease-in-out;
   }
 }
 
@@ -167,7 +166,7 @@
     flex-direction: column;
     width: 300px;
     justify-content: space-between;
-    height: 100px;
+    height: 115px;
   }
 
   .logos_apps {
@@ -178,22 +177,8 @@
     width: 25px;
     height: 25px;
   }
-  .btn_portfolio {
+  .btns {
     font-size: 15px;
-    height: 20px;
-    &::after {
-      padding: 10px 0;
-      width: 195px;
-      height: 25px;
-    }
-  }
-  .btn_about_me {
-    font-size: 15px;
-    height: 20px;
-    &::after {
-      padding: 10px 0;
-      width: 195px;
-      height: 25px;
-    }
+    height: 50px;
   }
 }

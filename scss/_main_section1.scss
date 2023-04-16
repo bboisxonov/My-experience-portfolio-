@@ -16,6 +16,7 @@
   letter-spacing: 3px;
 }
 .section1_desc {
+  text-align: center;
   color: white;
   font-size: 20px;
   width: 620px;
@@ -61,76 +62,25 @@
     }
   }
 }
-.btn_portfolio {
-  transform: all 0.3s;
-  &::after {
-    content: "PORTFOLIO";
-    position: absolute;
-    color: white;
-    background-color: #2b2b2b;
-    top: 2px;
-    left: 2px;
-    padding: 20px 0;
-    width: 245px;
-    height: 25px;
-    transition: all 0.3s;
-  }
-  &::before {
-    content: "";
-    background-image: conic-gradient(#0f0 30deg, transparent 180deg);
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    position: absolute;
-    animation: rotate 1.3s linear infinite;
-    z-index: 0;
-  }
-}
+// background-color: #0f0;
+// background-color: #03e8f3;
 
-.btn_portfolio:hover {
-  background-color: #0f0;
-  color: #000;
-  box-shadow: 0 0 10px #0f0, 0 0 0px #0f0, 0 0 0px #0f0, 0 0 200px #0f0,
-    0 0 0px #0f0;
-  &::after {
-    background-color: #0f0;
-    color: black;
-  }
-}
-.btn_about_me:hover {
-  background-color: #03e8f3;
-  color: #000;
-  box-shadow: 0 0 10px #03e8f3, 0 0 0px #03e8f3, 0 0 0px #03e8f3,
-    0 0 200px #03e8f3, 0 0 0px #03e8f3;
-  &::after {
-    background-color: #03e8f3;
-    color: black;
-  }
-}
-.btn_about_me {
-  transform: all 0.3s;
-  &::after {
-    content: "ABOUT ME";
-    position: absolute;
-    color: white;
-    background-color: #2b2b2b;
-    top: 2px;
-    left: 2px;
-    padding: 20px 0;
-    width: 245px;
-    height: 25px;
-    transition: all 1.3s;
-  }
-  &::before {
-    content: "";
-    background-image: conic-gradient(#03e8f3 30deg, transparent 180deg);
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    position: absolute;
-    animation: rotate 1.3s linear infinite;
-    z-index: 0;
-  }
-}
+// .btn_portfolio {
+//   transform: all 0.3s;
+// }
+
+// .btn_portfolio:hover {
+//   background-color: #0f0;
+//   color: #000;
+//   box-shadow: 0 0 10px #0f0, 0 0 0px #0f0, 0 0 0px #0f0, 0 0 200px #0f0,
+//     0 0 0px #0f0;
+// }
+// .btn_about_me:hover {
+//   background-color: #03e8f3;
+//   color: #000;
+//   box-shadow: 0 0 10px #03e8f3, 0 0 0px #03e8f3, 0 0 0px #03e8f3,
+//     0 0 200px #03e8f3, 0 0 0px #03e8f3;
+// }
+// .btn_about_me {
+//   transform: all 0.3s;
+// }
