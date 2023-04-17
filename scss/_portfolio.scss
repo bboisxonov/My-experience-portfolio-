@@ -1,11 +1,16 @@
-.portfolio_title {
+.portfolio-info {
+  width: 1400px;
+  text-align: center;
+  margin: 0 auto;
+}
+.portfolio-info-title {
   color: white;
   font-size: 47px;
   font-family: sans-serif;
   letter-spacing: 3px;
   line-height: 60px;
 }
-.portfolio_desc {
+.portfolio-info-desc {
   color: #04e6f1;
   font-family: sans-serif;
   font-size: 32px;
@@ -17,8 +22,9 @@
   width: 1330px;
   margin: 130px 70px;
   &_left {
+    width: 50%;
     &_img {
-      width: 650px;
+      width: 100%;
       border-radius: 20px;
     }
   }
