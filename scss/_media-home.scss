@@ -78,6 +78,9 @@
     margin: 50px auto;
     width: 200px;
   }
+  .nav {
+    padding: 10px 50px;
+  }
 
   .nav_logo {
     font-size: 35px;
@@ -94,6 +97,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .nav {
+    padding: 10px 30px;
+  }
   .site-header--open .site-header__sitenav {
     display: block;
     position: absolute;
@@ -133,13 +139,25 @@
   .navbar_item_link {
     width: 100%;
   }
+  .info_right {
+    margin: 0 auto;
+  }
+  .footer_text {
+    font-size: 18px;
+  }
 }
 
 @media only screen and (max-width: 415px) {
   .nav {
     padding: 5px 30px;
+    &_logo {
+      font-size: 28px;
+    }
   }
 
+  .info_right {
+    margin: 0 auto;
+  }
   .section1_left {
     position: relative;
     top: 50px;
@@ -170,7 +188,6 @@
   .btns {
     padding-bottom: 35px;
   }
-
   .logos_apps {
     margin: 50px auto;
     width: 200px;
@@ -182,5 +199,9 @@
   .btns {
     font-size: 15px;
     height: 50px;
+  }
+
+  .footer_text {
+    font-size: 15px;
   }
 }

@@ -2,10 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 30px;
   padding: 20px 90px;
   width: 100%;
   box-shadow: 0 5px 5px 2px #070707;
+  background-color: black;
+  position: fixed;
+  top: 0;
 }
 .nav_logo {
   font-family: monospace;
