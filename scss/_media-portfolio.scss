@@ -67,10 +67,12 @@
       }
       &_button {
         margin: 0;
+        width: fit-content;
       }
       &_btns {
         display: flex;
         justify-content: space-between;
+        width: 100%;
       }
     }
   }
