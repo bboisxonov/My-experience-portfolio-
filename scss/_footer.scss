@@ -23,3 +23,9 @@
   width: 40px;
   display: block;
 }
+.footer-link{
+  transition: .3s all ease-in-out;
+}
+.footer-link:hover{
+  color: aqua;
+}
